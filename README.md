@@ -1,18 +1,14 @@
-#Blockchain Implementation in python
+# Blockchain Implementation In Python
 
-##Requirements:
-require python(>=3.6)
-pip install pycrypto
+## Requirements:
+- require python(>=3.6)
+- pip install pycrypto
 
-##Run the program
-python blockchain.py
-python blockchain.py > output.txt
+## Run the program
+- python blockchain.py or python blockchain.py > output.txt
 
-
-##Working
-The blockchain is implemented in python3. 
-for a given number, "N" random transactions are made.
-Each transaction has the following fields:
+## Working
+The blockchain is implemented in python3. For a given number, "N" random transactions are made. Each transaction has the following fields:
 1. Merchant_id
 2. customer_id
 3. Customer’s public key
@@ -28,4 +24,4 @@ Once the new Blockchain is initiated, genesis block is created. Each transaction
 2. Hash of the previous block’s fields 1-7.
 3. Miner’s digital signature over the concatenation of fields 6-8.
 
-The prev hash field allows to create the chain of blocks and also helps in verifying the validity of the blockchain.
+The previous hash field allows to create the chain of blocks and also helps in verifying the validity of the blockchain.
