@@ -1,0 +1,74 @@
+Generate 5 key pairs for customers..
+Generate 2 key pairs for merchants..
+Generate 1 key pair for miner..
+Generate 25 random transactions..
+1: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 12/20/2015 $41.34
+2: M1(WfHdj/7NZmWF5lkEz) C2(Lx3EW8ctTX0cshMsE) 05/10/2020 $92.61
+3: M2(XmGnOsAd41RDcWnx1) C4(Lr3t/rL7s+G/3gDiA) 10/09/2020 $27.63
+4: M2(XmGnOsAd41RDcWnx1) C2(Lx3EW8ctTX0cshMsE) 12/08/2020 $80.33
+5: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 04/19/2017 $79.71
+6: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 05/11/2020 $27.4
+7: M1(WfHdj/7NZmWF5lkEz) C3(Cm+MpisJx0USSvNY/) 01/27/2015 $42.56
+8: M2(XmGnOsAd41RDcWnx1) C4(Lr3t/rL7s+G/3gDiA) 03/21/2018 $88.15
+9: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 11/28/2019 $40.84
+10: M1(WfHdj/7NZmWF5lkEz) C4(Lr3t/rL7s+G/3gDiA) 02/29/2020 $26.75
+11: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 04/07/2020 $35.62
+12: M1(WfHdj/7NZmWF5lkEz) C4(Lr3t/rL7s+G/3gDiA) 02/26/2020 $55.73
+13: M1(WfHdj/7NZmWF5lkEz) C4(Lr3t/rL7s+G/3gDiA) 08/01/2017 $15.73
+14: M2(XmGnOsAd41RDcWnx1) C2(Lx3EW8ctTX0cshMsE) 02/08/2020 $0.25
+15: M1(WfHdj/7NZmWF5lkEz) C3(Cm+MpisJx0USSvNY/) 07/24/2015 $53.44
+16: M1(WfHdj/7NZmWF5lkEz) C4(Lr3t/rL7s+G/3gDiA) 12/07/2016 $52.16
+17: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 02/16/2016 $87.27
+18: M1(WfHdj/7NZmWF5lkEz) C2(Lx3EW8ctTX0cshMsE) 09/05/2016 $36.52
+19: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 01/01/2018 $51.51
+20: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 01/20/2018 $22.35
+21: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 08/21/2017 $86.58
+22: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 11/23/2020 $10.87
+23: M1(WfHdj/7NZmWF5lkEz) C2(Lx3EW8ctTX0cshMsE) 04/17/2019 $3.36
+24: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 11/23/2019 $13.04
+25: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 03/04/2016 $20.2
+Completed!
+-----------------------------------
+Creating empty blockchain...
+Adding Transactions to the Blockchain...
+Verifying validity of blockchain....
+Blockchain is valid!
+
+
+-----------------------------------
+Increment the amount in block 10 by $10.00
+Initial amount: 26.75
+New amount: 36.75
+Verifying validity of blockchain....
+Invalid Blockchain: Block #10 is altered!!!!
+
+
+-----------------------------------
+Printing all transactions for C3
+1: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 04/19/2017 $79.71
+2: M1(WfHdj/7NZmWF5lkEz) C3(Cm+MpisJx0USSvNY/) 01/27/2015 $42.56
+3: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 11/28/2019 $40.84
+4: M1(WfHdj/7NZmWF5lkEz) C3(Cm+MpisJx0USSvNY/) 07/24/2015 $53.44
+5: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 08/21/2017 $86.58
+6: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 11/23/2019 $13.04
+Completed!
+-----------------------------------
+Printing all transactions for M2
+1: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 12/20/2015 $41.34
+2: M2(XmGnOsAd41RDcWnx1) C4(Lr3t/rL7s+G/3gDiA) 10/09/2020 $27.63
+3: M2(XmGnOsAd41RDcWnx1) C2(Lx3EW8ctTX0cshMsE) 12/08/2020 $80.33
+4: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 04/19/2017 $79.71
+5: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 05/11/2020 $27.4
+6: M2(XmGnOsAd41RDcWnx1) C4(Lr3t/rL7s+G/3gDiA) 03/21/2018 $88.15
+7: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 11/28/2019 $40.84
+8: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 04/07/2020 $35.62
+9: M2(XmGnOsAd41RDcWnx1) C2(Lx3EW8ctTX0cshMsE) 02/08/2020 $0.25
+10: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 02/16/2016 $87.27
+11: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 01/01/2018 $51.51
+12: M2(XmGnOsAd41RDcWnx1) C5(b/1Sw4Z+PdDTUS0g4) 01/20/2018 $22.35
+13: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 08/21/2017 $86.58
+14: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 11/23/2020 $10.87
+15: M2(XmGnOsAd41RDcWnx1) C3(Cm+MpisJx0USSvNY/) 11/23/2019 $13.04
+16: M2(XmGnOsAd41RDcWnx1) C1(OI3i9vv9v4RfvWMrr) 03/04/2016 $20.2
+Completed!
+-----------------------------------
