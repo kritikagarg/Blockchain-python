@@ -1,18 +1,16 @@
-#Blockchain Implementation in python
+# Blockchain Implementation In Python
 
-##Requirements:
-require python(>=3.6)
-pip install pycrypto
+## Requirements:
+- require python(>=3.6)
+- pip install pycrypto
 
-##Run the program
-python blockchain.py
-python blockchain.py > output.txt
+## Run the program
+- python blockchain.py or python blockchain.py > output.txt
 
-
-##Working
+## Working
 A simple implementation of the blockchain for logging transactions with a single miner. The blockchain is implemented in python3.
 
-###Generate random transactions
+### Generate random transactions
 "N" random transactions are generated, for a given number of transactions(N), the number of customers(C) and noumber of merchants(M). The default value of N is 25, C is 5 and M is 2.  
 
 Each transaction has the following fields:
@@ -24,14 +22,14 @@ Each transaction has the following fields:
 6. Merchant’s digital signature over the concatenation of fields 1-5.
 
 
-###Initiate Blockchain
+### Initiate Blockchain
 Once the new Blockchain is initiated, genesis block is created. Each transaction is added to a new block and then following fields added by the miner:
 7. Block sequence number (for genesis block, block sequence number = 0) 
 8. Hash of the previous block’s fields 1-7.
 9. Miner’s digital signature over the concatenation of fields 6-8.
 
 
-###Validite the blockchain & detect tampered block
+### Validite the blockchain & detect tampered block
 The prev hash field allows to create the chain of blocks and also helps in verifying the validity of the blockchain. To verify the blockchain, the hash of the block based on fields 1-7 is calculated again. This calculated hash is compared with the prev_hash value in the next block to validate the blockchain.
 
 Demonstrating detection of tampered block in the blockchain: 
@@ -43,7 +41,7 @@ Verifying validity of blockchain....
 Invalid Blockchain: Block #10 is altered!!!!
 -----------------------------------
 
-###Search for transactions for a given participant(Merchant/Customer)
+### Search for transactions for a given participant(Merchant/Customer)
 
 For a given participant, ex. C3,M2, all the transactions are collected by searching using participant's public key.
 
@@ -55,8 +53,4 @@ Printing all transactions for C3
 9: sSx6obgsd661JEQDw SK1wOwenO1b8QwRgU 07/22/2015 $50.85
 12: WC2IzJ/I4vPPl43hV SK1wOwenO1b8QwRgU 08/10/2018 $63.39
 -----------------------------------   
-
-
-
-
 
