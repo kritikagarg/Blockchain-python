@@ -2,10 +2,11 @@
 
 ## Requirements:
 - require python(>=3.6)
-- pip install pycrypto
+- `pip install pycrypto`
 
 ## Run the program
-- python blockchain.py or python blockchain.py > output.txt
+- `python blockchain.py` 
+- `python blockchain.py > output.txt`
 
 ## Working
 A simple implementation of the blockchain for logging transactions with a single miner. The blockchain is implemented in python3.
